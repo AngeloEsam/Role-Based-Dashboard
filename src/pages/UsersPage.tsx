@@ -10,8 +10,8 @@ const UsersPage = () => {
   const [userList, setUserList] = useState<User[]>(users);
 
   const handleDelete = (id: number) => {
-    if (role !== "HR") return; // Manager can't delete
-    if (user?.id === id) return; // HR can't delete himself
+    if (role !== "HR") return;
+    if (user?.id === id) return;
     setUserList(userList.filter((u) => u.id !== id));
   };
 
@@ -39,12 +39,11 @@ const UsersPage = () => {
                   {role === "HR" ? (
                     <button
                       onClick={() => handleDelete(u.id)}
-                      disabled={user?.id === u.id} // HR can't delete himself
-                      className={`px-4 py-2 rounded text-white font-medium transition ${
-                        user?.id === u.id
+                      disabled={user?.id === u.id}
+                      className={`px-4 py-2 rounded text-white font-medium transition ${user?.id === u.id
                           ? "bg-gray-400 cursor-not-allowed"
                           : "bg-red-500 hover:bg-red-600"
-                      }`}
+                        }`}
                     >
                       Delete
                     </button>
