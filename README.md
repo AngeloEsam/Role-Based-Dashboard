@@ -77,8 +77,8 @@ role-based-dashboard/
 
 ### 📥 Clone the repository
 ```bash
-git clone https://github.com/your-username/role-based-dashboard.git
-cd role-based-dashboard
+git clone https://github.com/AngeloEsam/Role-Based-Dashboard.git
+cd Role-Based-Dashboard
 
 --
 
