@@ -32,40 +32,6 @@ This project demonstrates how to manage authentication, authorization, and role-
 
 ## 📂 Project Structure
 
-# 📊 Role-Based Dashboard
-
-A **role-based access control (RBAC) dashboard** built with **React, TypeScript, Vite, and Tailwind CSS**.  
-This project demonstrates how to manage authentication, authorization, and role-specific routes inside a modern web application.
-
----
-
-## 🚀 Features
-
-- 🔐 **Authentication System**: Login with persistent session stored in `localStorage`.
-- 👥 **Role-Based Access**: Different roles (`Manager`, `HR`, `Sales`) have access to different pages.
-- 🧑‍💼 **User Management**: View and manage users (restricted to `Manager` & `HR`).
-- 📇 **Clients Management**: View and manage clients (restricted to `Manager` & `Sales`).
-- 💰 **Finance Page**: Manage financial data (restricted to `Manager` & `HR`).
-- 🖥️ **Dashboard Overview**: General dashboard page available to all roles.
-- 🎨 **Modern UI**: Built with **Tailwind CSS 4** + **Framer Motion** animations.
-- ✅ **Form Handling & Validation**: Using `Formik` + `Yup`.
-
----
-
-## 🛠️ Tech Stack
-
-- ⚛️ **React 18** with **TypeScript**
-- ⚡ **Vite 5** for fast development
-- 🎨 **Tailwind CSS 4** for styling
-- 🌀 **Framer Motion** for animations
-- 📝 **Formik** + **Yup** for forms & validation
-- 🔗 **React Router v7** for navigation
-- 🎯 **Lucide React** icons
-
----
-
-## 📂 Project Structure
-
 ```bash
 role-based-dashboard/
 ├── public/
